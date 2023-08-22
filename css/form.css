@@ -11,3 +11,23 @@
     }
 }
 
+.form__input {
+    border: 2px solid rgb(223, 223, 223);
+    padding: 10px;
+}
+
+.form__button {
+    background: rgb(6, 96, 112);
+    border: 0px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.form__button:hover {
+    background: rgb(3, 132, 155);
+}
+
+.form__button:active {
+    outline: auto black;
+}
