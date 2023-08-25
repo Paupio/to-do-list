@@ -1,5 +1,5 @@
 .task {
-    padding: 20px 20px;
+    padding: 30px 10px;
     margin: auto;
     list-style: none;
 }
@@ -14,39 +14,28 @@
 }
 
 .task__button {
-    color: rgb(255, 255, 255);
+    color: white;
     width: 30px;
     height: 30px;
     padding: 0;
-}
-
-.task__button--done {
-    background-color: rgb(38, 134, 38);
     border: none;
 }
 
-.task__button--done:hover {
-    background-color: rgb(54, 167, 20);
+.task__button--done {
+    background-color: green;
 }
 
-.task__button--done:active {
-    background-color: rgb(45, 179, 45);
+.task__button--done:hover {
+    background-color: rgb(55, 161, 23);
 }
 
 .task__button--remove {
-    height: 30px;
-    width: 30px;
     background-color: red;
-    font-weight: normal;
-    cursor: pointer;
 }
 
 .task__button--remove:hover {
-    background-color: rgb(230, 16, 52);
-}
-
-.task__button--remove:active {
-    background-color: rgb(255, 5, 59);
+    background-color: rgb(235, 26, 61);
+    cursor: pointer;
 }
 
 .task__content--done {
