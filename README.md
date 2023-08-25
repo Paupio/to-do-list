@@ -3,7 +3,7 @@
 ![Paulina](images/lista.png)
 
 ## Description:
-   This is a simple to-do list to write down various activities and also when you cross them off.
+   This is a simple to do list to write down various activities and after you do you cross them off and delete them.
    Link to task list below.
 
 ## Demo:
