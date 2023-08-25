@@ -13,17 +13,17 @@
     render();
   };
 
-  const toggleTaskDone = (taskIndex) => {
+  const doneTask = (taskIndex) => {
     tasks[taskIndex].done = !tasks[taskIndex].done;
     render();
   };
 
   const bindEvents = () => {
-    const toggleDoneButtons = document.querySelectorAll(".js-done");
+    const doneButtons = document.querySelectorAll(".js-done");
 
-    toggleDoneButtons.forEach((toggleDoneButton, index) => {
-      toggleDoneButton.addEventListener("click", () => {
-        toggleTaskDone(index);
+    doneButtons.forEach((doneButton, index) => {
+      doneButton.addEventListener("click", () => {
+        doneTask(index);
       });
     });
 
@@ -67,7 +67,6 @@
       newTaskItem.value = "";
     }
 
-    newTaskItem.focus();
   };
 
   const init = () => {
