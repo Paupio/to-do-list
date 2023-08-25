@@ -6,28 +6,24 @@
 
 @media (max-width: 710px) {
     .form {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
     }
 }
 
 .form__input {
-    border: 2px solid rgb(223, 223, 223);
+    border: 2px solid #eee;
     padding: 10px;
 }
 
 .form__button {
-    background: rgb(6, 96, 112);
+    background: teal;
     border: 0px;
-    color: rgb(255, 255, 255);
+    color: white;
     padding: 10px;
     cursor: pointer;
 }
 
 .form__button:hover {
-    background: rgb(3, 132, 155);
-}
-
-.form__button:active {
-    outline: auto black;
+    background: rgb(10, 133, 155);
 }
